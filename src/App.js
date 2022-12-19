@@ -36,9 +36,9 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <button onClick={onChangeThemeClicked}>
+        {/* <button onClick={onChangeThemeClicked}>
           {theme.darkmode ? "light mode" : "dark mode"}
-        </button>
+        </button> */}
 
         <h1>Get Inspired</h1>
         <p className="quote-info">
